@@ -59,7 +59,7 @@
                     {
                         "id": "samplepolling",
                         "name": "3s",
-                        "cmds": "?;[ESP701]json",
+                        "cmds": "?",
                         "refreshtime": "3000"
                     }
                 ]
