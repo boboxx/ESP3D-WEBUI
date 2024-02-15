@@ -251,7 +251,7 @@ span.input-group-addon {
 }
 
 .files-list-footer {
-    color: #5755d9;
+    color: $gray-color-light;
 }
 
 .file-line-controls {
@@ -261,6 +261,7 @@ span.input-group-addon {
     justify-content: flex-end;
     align-items: center;
 }
+
 .flex-pack,
 .file-line-name {
     align-items: center;

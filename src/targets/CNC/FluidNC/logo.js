@@ -23,13 +23,13 @@ import { h } from "preact"
 import { useSettingsContext } from "../../../contexts/SettingsContext"
 
 /*
- *ESP3D Logo
+ *FluidNC Logo
  * default height is 50px
  */
 const AppLogo = ({
-    height = "50px",
-    color = "#20262C",
-    bgcolor = "white",
+    height = "40px",
+    color = "$dark-color",
+    bgcolor = "$primary-color",
 }) => {
     const { interfaceSettings } = useSettingsContext()
     if (
@@ -54,7 +54,7 @@ const AppLogo = ({
                 viewBox="0 0 3018 1122"
                 fill={bgcolor}
                 stroke={color}
-                class="esp3dlogo"
+                class="fluidnclogo"
             >
                 <g id="Layer_x0020_1">
                     <metadata id="CorelCorpID_0Corel-Layer" />

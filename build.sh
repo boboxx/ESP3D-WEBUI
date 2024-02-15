@@ -1,7 +1,7 @@
 # npm install
 
 # local dev
-npm run dev-cnc-FluidNC
+#npm run dev-cnc-FluidNC
 
 #build
-#npm cnc-FluidNC
+npm run cnc-FluidNC

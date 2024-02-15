@@ -1,9 +1,9 @@
 .tab-item {
-  color: #8080ff !important;
+  color: $primary-color-light !important;
 }
 section .active,
 li .active {
-  color: blue !important;
+  color: $primary-color-light !important;
   font-weight: 700; // bold
 }
 .mobile-view section .active,
@@ -14,7 +14,7 @@ li .active {
 .navbar {
   padding: 0rem;
   padding-left: 15px;
-  background-color: $bg-color-dark;
+  background-color: $dark-color;
 }
 
 .tab {

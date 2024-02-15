@@ -26,9 +26,9 @@ import { useSettingsContext } from '../../../contexts/SettingsContext'
  * default height is 50px
  */
 const AppLogo = ({
-    height = '50px',
-    color = 'currentColor',
-    bgcolor = 'white',
+    height = "50px",
+    color = "currentColor",
+    bgcolor = "$dark-color",
 }) => {
     const { interfaceSettings } = useSettingsContext()
     if (

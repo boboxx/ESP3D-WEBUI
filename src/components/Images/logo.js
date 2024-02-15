@@ -28,7 +28,7 @@ import { useSettingsContext } from "../../contexts"
 const AppLogo = ({
     height = "50px",
     color = "currentColor",
-    bgcolor = "white",
+    bgcolor = "$dark-color",
 }) => {
     const { interfaceSettings } = useSettingsContext()
     if (

@@ -17,10 +17,6 @@
   margin-top: 0.2rem;
 }
 
-.menu-item {
-  color: #5755d9;
-}
-
 .menu .menu-item > .menu-entry {
   border-radius: 0.2rem;
   color: inherit;
@@ -31,10 +27,14 @@
   cursor: pointer;
 }
 
+.menu-item {
+  color: $gray-color-light;
+}
+
 .menu .menu-item > .menu-entry:focus,
 .menu .menu-item > .menu-entry:hover {
-  background: #f1f1fc;
-  color: #5755d9;
+  background: $gray-color-light;
+  color: $gray-color-dark;
 }
 
 .menu .menu-item > .menu-entry:active,
@@ -45,7 +45,7 @@
 
 .panel .menu-item:active,
 .panel .menu-item.active {
-  background: #5755d9;
+  background: $primary-color-light;
   color: #f1f1fc;
   border-radius: 0.2rem;
 }
