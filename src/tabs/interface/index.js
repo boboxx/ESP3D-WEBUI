@@ -119,10 +119,10 @@ const InterfaceTab = () => {
                 })
             }
         } else {
-            if (typeof fieldData.step!=="undefined" ) {  
+            if (typeof fieldData.step!=="undefined") {  
                 //hack to avoid float precision issue
                 const mult=(1/fieldData.step).toFixed(0)>0?(1/fieldData.step).toFixed(0):1
-                const valueMult = Math.round(fieldData.value * mult )
+                const valueMult = Math.round(fieldData.value * mult)
                 const stepMult = Math.round(fieldData.step* mult)
                 
                 if ((valueMult  % stepMult ) != 0) {
