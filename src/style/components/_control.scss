@@ -65,14 +65,15 @@ input[type='range']::-ms-thumb {
 }
 
 .emergency-btn {
-    color: #ff5160;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #ff0000;
     border-color: #ff5160;
 }
 
 .emergency-btn:hover {
-    background-color: #ff0000;
+    background-color: darken(#ff0000, 12%);;
     color: #ffffff;
+    border-color: #ff5160;
 }
 
 .emergency-btn:active {
@@ -155,7 +156,7 @@ span.input-group-addon {
 }
 
 .field-group {
-    color: blue;
+    color: #005B96;
     font-size: 0.8rem;
 }
 
@@ -214,10 +215,10 @@ span.input-group-addon {
     -ms-user-select: text;
 
     .echo {
-        color: blue;
+        color: #005B96;
     }
     .error {
-        color: red;
+        color: $error-color;
         font-weight: bolder;
     }
     pre {
@@ -238,7 +239,7 @@ span.input-group-addon {
 
 .comment {
     background: #f1f1fc;
-    color: #5755d9;
+    color: #005B96;
     padding-left: 0.5rem;
 }
 
@@ -276,7 +277,7 @@ span.input-group-addon {
 }
 
 .file-line-action:active {
-    color: blue;
+    color: #005B96;
     font-weight: bolder;
 }
 
@@ -300,7 +301,7 @@ span.input-group-addon {
 }
 
 .file-line:hover {
-    color: #5755d9;
+    color: #005B96;
     background-color: #f1f1fc;
     border-radius: $border-radius;
 }
@@ -338,7 +339,7 @@ span.input-group-addon {
 .mobile-view .btn-close,
 .btn-close:hover {
     color: white !important;
-    background-color: blue !important;
+    background-color: #005B96 !important;
 }
 
 .logo {
@@ -358,7 +359,7 @@ span.input-group-addon {
 
 .clearShortkey:hover,
 .passwordReveal:hover {
-    color: blue;
+    color: 005B96;
 }
 
 .align-top {
@@ -518,11 +519,11 @@ a label {
     }
 
     input[type='radio']:active + label {
-        background: blue;
+        background: #005B96;
         color: white;
     }
     input[type='radio']:checked + label {
-        background: #5755d9;
+        background: #005B96;
         color: white;
     }
     .last-button {

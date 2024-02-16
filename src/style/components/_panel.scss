@@ -33,8 +33,8 @@
 }
 .panel .navbar,
 .panel .navbar-section {
-    background: #f1f1fc;
-    color: #5755d9;
+    background: $gray-color-dark;
+    color: $primary-color;
 }
 
 .panel-item {
@@ -58,4 +58,9 @@
     align-items: center;
     height: 100%;
     width: 100%;
+}
+
+
+.dropdown-toggle {
+    background: $gray-color-dark;
 }
