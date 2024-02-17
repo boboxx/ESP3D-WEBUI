@@ -19,7 +19,7 @@
 */
 import { h, Fragment } from "preact"
 import { Menu } from "./menu"
-import { Informations } from "./informations"
+//import { Informations } from "./informations"
 import { ConnectionContainer } from "./connection"
 import { MainContainer } from "./main"
 import { useUiContext, useUiContextFn } from "../contexts/UiContext"
