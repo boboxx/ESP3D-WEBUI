@@ -3,12 +3,9 @@
 }
 section .active,
 li .active {
-  color: $primary-color-light !important;
+  //color: $primary-color-light !important;
+  background-color: #005B96 !important;
   font-weight: 700; // bold
-}
-.mobile-view section .active,
-.mobile-view li .active {
-  background-color: rgba(0, 0, 255, 0.1) !important;
 }
 
 .navbar {
